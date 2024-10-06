@@ -1,0 +1,16 @@
+numpy
+pandas
+librosa
+matplotlib
+seaborn
+torch
+torchaudio
+tensorflow
+transformers
+scikit-learn
+soundfile
+IPython
+notebook
+pytube
+moviepy
+yt-dlp

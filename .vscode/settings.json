@@ -1,0 +1,124 @@
+{
+    // General settings
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Default Light Modern",
+    "git.autofetch": true,
+
+    // Editor font settings with simplified font declaration for testing ligatures
+    "editor.fontFamily": "'Fira Code', 'Consolas', 'Courier New', monospace",
+    "editor.fontLigatures": true, // Keep it true for default ligature support, or use custom as shown below
+    // You can specify stylistic sets if needed for customization
+    // "editor.fontLigatures": "'calt', 'liga'",
+
+    // Integrated terminal settings with backup fonts
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', 'Fira Code', 'FiraCode NF', 'Consolas', 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.scrollback": 10000,
+
+    // PowerShell configuration in integrated terminal
+    "terminal.integrated.defaultProfile.windows": "PowerShell 7 Preview",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell 7 Preview": {
+            "source": "Windows.Terminal.PowershellCore",
+            "path": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+            "icon": "terminal-powershell"
+        },
+        "Windows PowerShell": {
+            "path": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "%SystemRoot%\\System32\\cmd.exe",
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "icon": "terminal-bash"
+        },
+        "Ubuntu-20.04": {
+            "path": "wsl.exe",
+            "icon": "terminal-linux",
+            "args": ["-d", "Ubuntu-20.04"]
+        }
+    },
+    "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+
+    // Conda environment setup in terminal
+    "terminal.integrated.env.windows": {
+        "CONDA_PROMPT_MODIFIER": "(base) "
+    },
+
+    // Language-specific formatters
+    "[dockercompose]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    // Workbench and window settings
+    "window.autoDetectColorScheme": true,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "markdown.preview.scrollPreviewWithEditor": true,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+
+    // Accessibility and terminal bell settings
+    "redhat.telemetry.enabled": true,
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "terminal.integrated.enableVisualBell": true,
+    
+    // Security settings for workspace trust
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "explorer.confirmUndo": "verbose",
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.incrementalNaming": "smart",
+    "explorer.sortOrder": "foldersNestsFiles",
+    "debug.openExplorerOnEnd": true,
+    "powershell.sideBar.CommandExplorerVisibility": true,
+    "java.dependency.showMembers": true,
+    "npm.enableRunFromFolder": true,
+    "rainbow_csv.enable_context_menu_head": true,
+    "rainbow_csv.enable_context_menu_tail": true,
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.experimental.windowsUseConptyDll": true,
+    "terminal.integrated.focusAfterRun": "terminal",
+    "terminal.integrated.ignoreBracketedPasteMode": true,
+    "terminal.integrated.macOptionClickForcesSelection": true,
+    "terminal.integrated.macOptionIsMeta": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.stickyScroll.enabled": true,
+    "terminal.integrated.suggest.enabled": true,
+    "task.quickOpen.showAll": true,
+    "task.quickOpen.skip": true,
+    "task.verboseLogging": false,
+    "problems.showCurrentInStatus": true,
+    "editor.fontVariations": false,
+    "material-icon-theme.hidesExplorerArrows": true,
+    "maven.explorer.projectName": "${project.groupId}.${project.artifactId}-${project.version}"
+}
