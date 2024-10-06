@@ -75,8 +75,8 @@
     "workbench.editorAssociations": {
         "*.svg": "default"
     },
-    "markdown.preview.scrollPreviewWithEditor": true,
-    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "markdown.preview.scrollEditorWithPreview": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
 
@@ -120,5 +120,7 @@
     "problems.showCurrentInStatus": true,
     "editor.fontVariations": false,
     "material-icon-theme.hidesExplorerArrows": true,
-    "maven.explorer.projectName": "${project.groupId}.${project.artifactId}-${project.version}"
+    "maven.explorer.projectName": "${project.groupId}.${project.artifactId}-${project.version}",
+    "markdown.preview.breaks": true,
+    "markdown.preview.typographer": true
 }

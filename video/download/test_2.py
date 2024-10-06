@@ -3,7 +3,13 @@ from moviepy.editor import AudioFileClip
 import os
 
 # Define the URL of the YouTube video
-video_url = 'https://www.youtube.com/watch?v=g3znK6xwTlo'
+# females
+# video_url = 'https://www.youtube.com/watch?v=g3znK6xwTlo'
+
+# male
+# video_url = 'https://www.youtube.com/watch?v=zeApE-aD3fI'
+video_url = 'https://www.youtube.com/watch?v=XLftjweg2gE'
+
 
 # Set up yt-dlp options to download audio only
 ydl_opts = {

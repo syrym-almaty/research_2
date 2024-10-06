@@ -3,6 +3,7 @@ pandas
 librosa
 matplotlib
 seaborn
+spicy
 torch
 torchaudio
 tensorflow
