@@ -1,17 +1,33 @@
+# Core Libraries
 numpy
 pandas
 librosa
 matplotlib
 seaborn
-spicy
+scipy
+soundfile
+
+# Machine Learning & Deep Learning
 torch
 torchaudio
 tensorflow
 transformers
 scikit-learn
-soundfile
-IPython
+
+# Jupyter Notebook & IPython
 notebook
-pytube
+jupyter
+ipywidgets
+IPython
+
+# Audio and Video Processing
 moviepy
 yt-dlp
+
+# Optional (if you plan to use pytube elsewhere in your project)
+pytube
+
+
+# new ones
+pydub
+
